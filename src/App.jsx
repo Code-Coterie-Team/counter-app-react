@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const App = () => {
   // ایجاد state برای دو شمارنده
@@ -43,19 +43,19 @@ const App = () => {
         </div>
 
         <div className="flex justify-center py-6 gap-10 ">
-          <button 
+          <button
             onClick={decreaseFirst} // فراخوانی تابع decrease برای شمارنده اول
             className="border-[2px] border-[#222222] rounded-md w-36 uppercase"
           >
             decrease
           </button>
-          <button 
+          <button
             onClick={resetFirst} // فراخوانی تابع reset برای شمارنده اول
             className="border-[2px] border-[#222222] rounded-md w-36 uppercase"
           >
             reset
           </button>
-          <button 
+          <button
             onClick={increaseFirst} // فراخوانی تابع increase برای شمارنده اول
             className="border-[2px] border-[#222222] rounded-md w-36 uppercase"
           >
@@ -74,19 +74,19 @@ const App = () => {
         </div>
 
         <div className="flex justify-center py-6 gap-10 ">
-          <button 
+          <button
             onClick={decreaseSecond} // فراخوانی تابع decrease برای شمارنده دوم
             className="border-[2px] border-[#222222] rounded-md w-36 uppercase"
           >
             decrease
           </button>
-          <button 
+          <button
             onClick={resetSecond} // فراخوانی تابع reset برای شمارنده دوم
             className="border-[2px] border-[#222222] rounded-md w-36 uppercase"
           >
             reset
           </button>
-          <button 
+          <button
             onClick={increaseSecond} // فراخوانی تابع increase برای شمارنده دوم
             className="border-[2px] border-[#222222] rounded-md w-36 uppercase"
           >
