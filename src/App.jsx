@@ -35,7 +35,7 @@ const App = () => {
     <div className="bg-blue-200 h-screen flex justify-center items-center p-12 flex-col">
       {/* دیو اول */}
       <div className="bg-white w-6/12 h-1/2 flex flex-col justify-center items-center p-36 mb-6">
-        <div className="text-[#102A42] flex justify-center py-4 text-[50px] font-medium">
+        <div className="text-[#102A42] flex justify-center py-4 text-[40px]">
           first counter
         </div>
         <div className="text-[#102A42] flex justify-center text-[50px] font-medium">
@@ -66,7 +66,7 @@ const App = () => {
 
       {/* دیو دوم */}
       <div className="bg-white w-6/12 h-1/2 flex flex-col justify-center items-center p-36">
-        <div className="text-[#102A42] flex justify-center py-4 text-[50px] font-medium">
+        <div className="text-[#102A42] flex justify-center py-4 text-[40px] ">
           second counter
         </div>
         <div className="text-[#102A42] flex justify-center text-[50px] font-medium">
